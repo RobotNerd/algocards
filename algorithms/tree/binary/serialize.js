@@ -1,8 +1,8 @@
 {
-  tags: ['binary tree',],
-  language: 'python',
-  question: 'serialize a binary tree',
-  answer:
+tags: ['binary tree',],
+language: 'python',
+question: 'serialize a binary tree',
+answer:
 `# class Node(object):
 #     def __init__(self, x=None):
 #         self.val = x

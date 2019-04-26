@@ -1,8 +1,8 @@
 {
-  tags: ['binary tree',],
-  language: 'python',
-  question: 'deserialize a binary tree',
-  answer:
+tags: ['binary tree',],
+language: 'python',
+question: 'deserialize a binary tree',
+answer:
 `# class Node(object):
 #     def __init__(self, x=None):
 #         self.val = x
@@ -13,8 +13,9 @@
 def deserialize(values):
     """Generate binary try from an array of values.
 
-    The input values are read as the nodes at each level of the
-    tree. If a value is None, then that is an empty leaf.
+    The input values are read as the nodes at each
+    level of the tree. If a value is None, then that
+    is an empty leaf.
 
     :param list values: Values for the binary tree.
     :return Node: Root node of the tree.

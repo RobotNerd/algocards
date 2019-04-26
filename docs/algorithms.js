@@ -1,11 +1,10 @@
 // Algorithm data displayed by the application.
 algorithms = [
-  
-    {
-  tags: ['binary tree',],
-  language: 'python',
-  question: 'serialize a binary tree',
-  answer:
+{
+tags: ['binary tree',],
+language: 'python',
+question: 'serialize a binary tree',
+answer:
 `# class Node(object):
 #     def __init__(self, x=None):
 #         self.val = x
@@ -43,13 +42,11 @@ def serialize(root):
     return result
 `,
 }
-,
-  
-    {
-  tags: ['binary tree',],
-  language: 'python',
-  question: 'deserialize a binary tree',
-  answer:
+,{
+tags: ['binary tree',],
+language: 'python',
+question: 'deserialize a binary tree',
+answer:
 `# class Node(object):
 #     def __init__(self, x=None):
 #         self.val = x
@@ -60,8 +57,9 @@ def serialize(root):
 def deserialize(values):
     """Generate binary try from an array of values.
 
-    The input values are read as the nodes at each level of the
-    tree. If a value is None, then that is an empty leaf.
+    The input values are read as the nodes at each
+    level of the tree. If a value is None, then that
+    is an empty leaf.
 
     :param list values: Values for the binary tree.
     :return Node: Root node of the tree.
@@ -88,13 +86,11 @@ def deserialize(values):
     return root
  `,
  }
-,
-  
-    {
-  tags: ['binary tree',],
-  language: 'python',
-  question: 'recursively search a binary tree',
-  answer:
+,{
+tags: ['binary tree',],
+language: 'python',
+question: 'recursively search a binary tree',
+answer:
 `# class Node(object):
 #     def __init__(self, x=None):
 #         self.val = x
@@ -106,7 +102,8 @@ def find(value, node):
     """Recursively search the tree for the value.
 
     :param int val: Value to find.
-    :return tree.Node: Matched node if it is found, None otherwise.
+    :return tree.Node: Matched node if it is found,
+      None otherwise.
     """
     if not node:
         return None
@@ -117,13 +114,12 @@ def find(value, node):
     return find(value, node.right)
 `,
 }
-,
-  
-    {
-  tags: ['binary tree'],
-  language: 'python',
-  question: 'iteratively search a binary tree for a value',
-  answer:
+,{
+tags: ['binary tree'],
+language: 'python',
+question:
+  'iteratively search a binary tree for a value',
+answer:
 `# class Node(object):
 #     def __init__(self, x=None):
 #         self.val = x
@@ -135,7 +131,8 @@ def find(val, node):
     """Iteratively search the tree for the value.
 
     :param int val: Value to find.
-    :return tree.Node: Matched node if it is found, None otherwise.
+    :return tree.Node: Matched node if it is found,
+      None otherwise.
     """
     while node:
         if node.val == val:
@@ -148,5 +145,4 @@ def find(val, node):
 `,
 }
 ,
-  
 ];

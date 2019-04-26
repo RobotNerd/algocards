@@ -1,8 +1,9 @@
 {
-  tags: ['binary tree'],
-  language: 'python',
-  question: 'iteratively search a binary tree for a value',
-  answer:
+tags: ['binary tree'],
+language: 'python',
+question:
+  'iteratively search a binary tree for a value',
+answer:
 `# class Node(object):
 #     def __init__(self, x=None):
 #         self.val = x
@@ -14,7 +15,8 @@ def find(val, node):
     """Iteratively search the tree for the value.
 
     :param int val: Value to find.
-    :return tree.Node: Matched node if it is found, None otherwise.
+    :return tree.Node: Matched node if it is found,
+      None otherwise.
     """
     while node:
         if node.val == val:

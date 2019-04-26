@@ -1,8 +1,8 @@
 {
-  tags: ['binary tree',],
-  language: 'python',
-  question: 'recursively search a binary tree',
-  answer:
+tags: ['binary tree',],
+language: 'python',
+question: 'recursively search a binary tree',
+answer:
 `# class Node(object):
 #     def __init__(self, x=None):
 #         self.val = x
@@ -14,7 +14,8 @@ def find(value, node):
     """Recursively search the tree for the value.
 
     :param int val: Value to find.
-    :return tree.Node: Matched node if it is found, None otherwise.
+    :return tree.Node: Matched node if it is found,
+      None otherwise.
     """
     if not node:
         return None
