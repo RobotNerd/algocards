@@ -12,6 +12,10 @@ These Python packages are needed to build the site.
 
 Install these plugins using pip.
 
+## Formatting code
+
+> TODO: css setup for 60 charater line limit
+
 ## Building
 
 Run python script `build.py` to generate the updated HTML and CSS for the
