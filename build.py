@@ -72,7 +72,7 @@ def render_page(path, args={}):
 def run():
     build_algorithms()
     build_styles()
-    #build_pages()
+    # build_pages()
 
 
 if __name__ == "__main__":
