@@ -1,5 +1,7 @@
 @import 'variables.scss';
 
+$control-width: 250px;
+
 button {
   background-color: $button-background;
   border: none;
@@ -8,7 +10,13 @@ button {
   font-weight: bold;
   height: 50px;
   margin-top: 3px;
-  width: 250px;
+  width: $control-width;
+}
+
+#question, #tags {
+  margin: auto;
+  text-align: left;
+  width: $control-width;
 }
 
 #answer {
@@ -24,6 +32,11 @@ button {
   min-height: 100%;
   text-align: center;
   width: auto;
+}
+
+#tags {
+  color: #8aa1da;
+  font-size: 12px;
 }
 
 pre[class*="language-"] {

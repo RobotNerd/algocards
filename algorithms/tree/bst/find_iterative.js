@@ -1,5 +1,5 @@
 {
-tags: ['binary tree'],
+tags: ['binary tree', 'bst',],
 language: 'python',
 question:
   'iteratively search a binary tree for a value',

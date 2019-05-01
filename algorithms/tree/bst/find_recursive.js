@@ -1,5 +1,5 @@
 {
-tags: ['binary tree',],
+tags: ['binary tree', 'bst',],
 language: 'python',
 question: 'recursively search a binary tree',
 answer:

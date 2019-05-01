@@ -33,13 +33,19 @@ function getQuestionElement() {
   return document.getElementById('question');
 }
 
+function getTagsElement() {
+  return document.getElementById('tags');
+}
+
 function loadQuestion() {
   let answer = getAnswerElement();
   let question = getQuestionElement();
+  let tags = getTagsElement();
   let index = getNextIndex();
   answer.style.display = "none";
   answer.innerHTML = algorithms[index].answer;
   question.innerHTML = algorithms[index].question;
+  tags.innerHTML = algorithms[index].tags.join(', ');
 }
 
 function onPageLoad() {
