@@ -118,7 +118,7 @@ def find(value, node):
 tags: ['binary tree', 'bst',],
 language: 'python',
 question:
-  'iteratively search a binary tree for a value',
+  'iteratively search a binary tree',
 answer:
 `# class Node(object):
 #     def __init__(self, x=None):

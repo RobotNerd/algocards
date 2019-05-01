@@ -2,7 +2,7 @@
 tags: ['binary tree', 'bst',],
 language: 'python',
 question:
-  'iteratively search a binary',
+  'iteratively search a binary tree',
 answer:
 `# class Node(object):
 #     def __init__(self, x=None):
