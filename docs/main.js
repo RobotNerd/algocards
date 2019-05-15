@@ -26,7 +26,7 @@ function getNextIndex() {
   if (current >= algorithms.length) {
     current = 0;
   }
-  return current;
+  return order[current];
 }
 
 function getQuestionElement() {
